@@ -1,5 +1,4 @@
-#! /usr/bin/bash
-
+#!/usr/bin/bash
 apt update -y ; apt dist-upgrade -y ; apt full-upgrade -y
 update-rc.d -f ssh remove
 update-rc.d -f ssh defaults
